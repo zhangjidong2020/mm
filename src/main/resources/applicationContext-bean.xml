@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--定义bean 默认scope="singleton" 单例 scope="prototype" 多例 lazy-init="false" 使用时候产生对象 lazy-init="true" 立刻产生对象-->
+    <bean id="personId" name="personName" init-method="init" destroy-method="destroy" class="com.bigdata.bean.Person"></bean>
+
+</beans>
