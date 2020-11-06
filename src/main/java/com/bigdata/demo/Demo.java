@@ -11,6 +11,6 @@ public class Demo {
         person.setAge(11);
         //        //打印
         System.out.println(person);
-
+        System.out.println("mm");
     }
 }
